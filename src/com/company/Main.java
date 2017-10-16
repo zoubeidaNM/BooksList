@@ -54,14 +54,12 @@ public class Main {
 
         // print to the console what the user entered.
         System.out.println("*--------------------------------------------------*");
-        for (int i=0; i<bookTitles.length; i++ ) {
-            if(bookTitles[i]!= null) {
+        for (int i=0; i<bookRecordCounter; i++ ) {
                 System.out.println("Book Title       : " + bookTitles[i] + ".");
                 System.out.println("Book author      : " + authors[i] + ".");
                 System.out.println("Book description : " + bookDescriptions[i] + ".");
                 System.out.println("*--------------------------------------------------*");
-            }
-        }
+         }
 
 
     }
